@@ -113,7 +113,7 @@ export const Ilustration = () => {
 
           <button
             onClick={closeBigImagen}
-            className="absolute top-4 left-4 opacity-30 hover:opacity-100 cursor-pointer transition-all duration-300 bg-black lg:p-2 p-3 rounded-full"
+            className="absolute top-4 right-4 opacity-30 hover:opacity-100 cursor-pointer transition-all duration-300 bg-black lg:p-2 p-3 rounded-full"
           >
             <img src={`${BASE_URL}icons/close.png`} className="w-3 lg:w-4"></img>
           </button>
