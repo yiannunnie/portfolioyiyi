@@ -1,7 +1,7 @@
 import { NavLink } from "react-router-dom";
 import { Footer } from "../../components";
 export const Home = () => {
-  const BASE_URL = "/portfolioyixuan/";
+  const BASE_URL = import.meta.env.BASE_URL;
 
 const images = [
   { src: `${BASE_URL}images/background.png`, to: "./ilustration" },

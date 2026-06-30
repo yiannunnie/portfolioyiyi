@@ -1,6 +1,6 @@
 import "./style.css";
 
-const BASE_URL = "/portfolioyixuan/";
+const BASE_URL = import.meta.env.BASE_URL;
 
 export const Contact = () => {
   return (

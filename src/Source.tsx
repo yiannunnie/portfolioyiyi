@@ -4,7 +4,7 @@ import { Scroll } from "./components/Scroll";
 
 
 export const Source = () => {
-const BASE_URL = "/portfolioyixuan/";
+const BASE_URL = import.meta.env.BASE_URL;
 const location = useLocation();
 const flexBetween = "flex justify-center items-center";
 

@@ -1,7 +1,7 @@
 import { useState } from "react";
 
 export const About = () => {
-  const BASE_URL = "/portfolioyixuan/";
+  const BASE_URL = import.meta.env.BASE_URL;
   const [imageAbout, setImageAbout] = useState('yob.png');
 
   return (

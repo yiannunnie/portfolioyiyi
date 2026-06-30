@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { Footer } from "../../components";
 
 
-const BASE_URL = "/portfolioyixuan/";
+const BASE_URL = import.meta.env.BASE_URL;
 
 const images = [
   {
